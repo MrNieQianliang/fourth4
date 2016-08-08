@@ -1,0 +1,57 @@
+Mon Aug  8 10:29:51 2016
+将套接字设置为非阻塞
+
+Mon Aug  8 10:29:51 2016
+绑定套接口
+
+Mon Aug  8 10:29:51 2016
+设置监听套接口，服务器正常开始运行
+
+Mon Aug  8 10:29:51 2016
+创建一个epoll句柄
+
+Mon Aug  8 10:29:51 2016
+ 注册新事件到内核
+
+Mon Aug  8 10:30:14 2016
+wait到 1  个活跃事件
+
+Mon Aug  8 10:30:14 2016
+成功accept到一个请求，并返回一个new_fd
+
+Mon Aug  8 10:30:14 2016
+epoll_ctl添加一个新事件
+
+work_epoll_wait 到1  个事件
+
+-1
+
+recv jieshoudaode shu ju GET /h HTTP/1.0
+Host: localhost:2323
+User-Agent: ApacheBench/2.3
+Accept: */*
+
+
+
+Mon Aug  8 10:30:14 2016
+work 中 recv函数成接收new_fd链接传输的数据
+
+Mon Aug  8 10:30:14 2016
+ 接收数据 
+
+Mon Aug  8 10:30:14 2016
+接收到客户端数据字节数 
+
+Mon Aug  8 10:30:14 2016
+接收到客户端数据 00
+
+GET /h HTTP/1.0
+Host: localhost:2323
+User-Agent: ApacheBench/2.3
+Accept: */*
+
+
+
+Mon Aug  8 10:30:14 2016
+正在发送数据给客户端
+
